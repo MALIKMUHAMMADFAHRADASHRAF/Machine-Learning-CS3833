@@ -1,0 +1,22 @@
+MACHINE LEARNING
+REPORT OF ASSIGNMENT 4 
+Introduction
+This report explores the impact of different distance metrics and feature adjustments on a movie recommendation system. The goal is to analyze how these changes affect the quality of recommendations and to suggest potential improvements.
+Methodology
+Original System:
+Utilizes Euclidean distance to compute similarity between movies.
+Changes Made:
+Replaced Euclidean distance with Manhattan distance.
+Turned features on/off.
+Assigned different weights to features.
+Observations
+Distance Metrics:
+Euclidean vs. Manhattan distance results in different sets of recommended movies. Manhattan distance often resulted in more diverse recommendations.
+Feature Adjustments:
+Including/excluding certain features significantly impacted recommendations. For instance, removing genre information led to less relevant recommendations.
+Feature Weights:
+Assigning higher weights to certain features (e.g., genre) improved recommendation relevance.
+Discussion
+The choice of distance metric and feature adjustments play a crucial role in the effectiveness of the recommendation system. Manhattan distance provided more varied recommendations, potentially enhancing user discovery of new movies. Adjusting feature weights allowed for finer control over the recommendation quality.
+Conclusion
+Different distance metrics and feature adjustments can significantly impact a recommendation system's performance. Future work could explore hybrid methods and user feedback integration to further enhance recommendation quality.
